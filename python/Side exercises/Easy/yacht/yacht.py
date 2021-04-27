@@ -1,3 +1,5 @@
+# I need to work on the community solutions that use lambda
+
 """
 This exercise stub and the test suite contain several enumerated constants.
 

@@ -2,6 +2,9 @@
 /python/Main track/*/.exercism/
 /python/Main track/*/.pytest_cache/
 
-/python/Main track/*/*/.idea/
-/python/Main track/*/*/.exercism/
-/python/Main track/*/*/.pytest_cache/
+/python/Side exercises/Easy/*/.idea/
+/python/Side exercises/Easy/*/.exercism/
+/python/Side exercises/Easy/*/.pytest_cache/
+/python/Side exercises/Medium/*/.idea/
+/python/Side exercises/Medium/*/.exercism/
+/python/Side exercises/Medium/*/.pytest_cache/

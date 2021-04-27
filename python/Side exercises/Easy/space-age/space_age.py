@@ -1,3 +1,5 @@
+# Need to work on the setattr function, from the community solutions
+
 class SpaceAge:
     def __init__(self, seconds):
         self.seconds = seconds

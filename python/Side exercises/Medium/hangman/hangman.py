@@ -1,3 +1,5 @@
+# For now, I'= won't be working on this exercise. Asking for FRP is a bit too much for me right now ^^
+
 # Game status categories
 # Change the values as you see fit
 STATUS_WIN = "win"
