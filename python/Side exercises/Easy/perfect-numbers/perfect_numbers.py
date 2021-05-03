@@ -1,4 +1,4 @@
-# TO-DO : optimise the function, takes currently 4 seconds to run the tests
+# Thanks @Migwel on Zeste de Savoir for the help on the optimisation ;)
 
 def classify(number: int) -> str:
     """Classify the int following the Nicomachus' classification of perfect numbers.
