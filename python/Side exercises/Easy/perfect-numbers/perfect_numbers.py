@@ -22,7 +22,7 @@ def classify(number: int) -> str:
 def aliquot_sum(number: int) -> int:
     aliquot: int = 1
     for i in range(2, int(number ** (1 / 2))+1):
-        # Let's say number = X * Y. If we find X, then we can add Y. So we can add Y to aliquot.
+        # Let's say number = X * Y. If we find X, then we find Y. So we can add Y to aliquot.
         if number % i == 0:
             aliquot += i
             aliquot += number / i
