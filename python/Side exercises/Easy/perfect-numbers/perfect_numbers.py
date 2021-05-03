@@ -21,7 +21,7 @@ def classify(number: int) -> str:
 
 def aliquot_sum(number: int) -> int:
     aliquot: int = 0
-    for i in range(1, number):
+    for i in range(1, number // 2 + 1): # Yup, no need to test more, and I needed someone to tell me that...
         if number % i == 0:
             aliquot += i
     return aliquot
