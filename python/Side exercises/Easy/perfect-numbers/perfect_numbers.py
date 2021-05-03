@@ -9,19 +9,19 @@ def classify(number: int) -> str:
     elif number == 1:
         classification = "deficient"
     else:
-        aliquot_sum = sum(find_factors(number))
-        if aliquot_sum > number:
+        aliquot = aliquot_sum(number)
+        if aliquot > number:
             classification = "abundant"
-        elif aliquot_sum < number:
+        elif aliquot < number:
             classification = "deficient"
         else:
             classification = "perfect"
     return classification
 
 
-def find_factors(number: int) -> list[int]:
-    factors: list[int] = []
+def aliquot_sum(number: int) -> int:
+    aliquot: int = 0
     for i in range(1, number):
         if number % i == 0:
-            factors.append(i)
-    return factors
+            aliquot += i
+    return aliquot
