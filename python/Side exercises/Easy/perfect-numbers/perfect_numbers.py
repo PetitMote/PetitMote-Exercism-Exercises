@@ -1,4 +1,6 @@
-# Thanks @Migwel on Zeste de Savoir for the help on the optimisation ;)
+# Thanks @Migwel and @ache on Zeste de Savoir for the help on the optimisation ;)
+from math import ceil
+
 
 def classify(number: int) -> str:
     """Classify the int following the Nicomachus' classification of perfect numbers.
@@ -21,12 +23,14 @@ def classify(number: int) -> str:
 
 def aliquot_sum(number: int) -> int:
     aliquot: int = 1
-    for i in range(2, int(number ** (1 / 2))+1):
+    sqrt_ceil = ceil(number ** (1/2))
+    for i in range(2, ceil(number ** (1 / 2))):
         # Let's say number = X * Y. If we find X, then we find Y. So we can add Y to aliquot.
         if number % i == 0:
             aliquot += i
             aliquot += number / i
-    if int(number ** (1/2)) == number ** (1/2):
-        # If sqrt(number) is an integer, then we added it 2 times. Here, we correct that by subtracting it if necessary.
-        aliquot -= number ** (1/2)
+    if sqrt_ceil ** 2 == number:
+        # If sqrt_ceil ** 2 == number, then the sqrt was an integer, and we excluded it our loop. We need to add it
+        # only 1 time now.
+        aliquot += number ** (1/2)
     return aliquot
