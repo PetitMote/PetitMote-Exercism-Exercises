@@ -1,3 +1,5 @@
+# Thanks to @IsaacG on Exercism :)
+
 class Matrix:
     """Object to create matrices using a string to represent the matrix."""
 
