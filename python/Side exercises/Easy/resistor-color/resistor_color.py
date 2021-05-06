@@ -1,8 +1,8 @@
-def color_code(color):
-     return colors().index(str(color))
+def color_code(color: str) -> int:
+    return colors().index(str(color))
 
 
-def colors():
+def colors() -> list[str]:
     return [
         "black",
         "brown",
