@@ -24,7 +24,9 @@ def classify(number: int) -> str:
 def aliquot_sum(number: int) -> int:
     aliquot: int = 1
     sqrt_ceil = ceil(number ** (1/2))
-    for i in range(2, ceil(number ** (1 / 2))):
+    # Is the list comprehension readable ?
+    # aliquot = sum(i + (number / i) if number % i == 0 else 0 for i in range(2, sqrt_ceil)) + 1
+    for i in range(2, sqrt_ceil):
         # Let's say number = X * Y. If we find X, then we find Y. So we can add Y to aliquot.
         if number % i == 0:
             aliquot += i
