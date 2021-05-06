@@ -1,4 +1,4 @@
-def value(colors):
+def value(colors: list[str]) -> int:
     array_colors = [
         "black",
         "brown",
