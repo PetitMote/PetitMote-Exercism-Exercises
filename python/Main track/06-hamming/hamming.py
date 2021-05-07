@@ -1,4 +1,5 @@
 # Learned about the zip function and that I should call maths functions on booleans
+# Thank you @bobahop on exercism.io for the review !
 
 def distance(strand_a: str, strand_b: str) -> int:
     if len(strand_a) != len(strand_b):
