@@ -1,3 +1,5 @@
+# Thank you @IsaacG for the review
+
 def latest(scores: list[int]) -> int:
     """
     Return the latest score (last element in the list).

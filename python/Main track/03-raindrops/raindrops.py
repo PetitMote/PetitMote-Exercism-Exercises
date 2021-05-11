@@ -1,3 +1,5 @@
+# Thank you @IsaacG for the review (first of a series !)
+
 def convert(number: int) -> str:
     raindrops = ""
     if number % 3 == 0:
