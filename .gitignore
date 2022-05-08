@@ -1,4 +1,5 @@
 .idea
+/venv/
 
 /python/Main track/*/.idea/
 /python/Main track/*/.exercism/
@@ -10,3 +11,7 @@
 /python/Side exercises/Medium/*/.idea/
 /python/Side exercises/Medium/*/.exercism/
 /python/Side exercises/Medium/*/.pytest_cache/
+
+javascript/*/node_modules/
+/javascript/*/package-lock.json
+/javascript/*/.exercism/
