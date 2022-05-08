@@ -26,9 +26,9 @@
 //
 // 💡 You're allowed to completely clear a stub before you get started. Often
 // we recommend using the stub, because they are already set-up correctly to
-// work with the tests, which you can find in ./lasagna.spec.js
+// work with the tests, which you can find in ./02-lasagna.spec.js
 //
-// Good luck preparing some lasagna!
+// Good luck preparing some 02-lasagna!
 
 /*
  * The number of minutes it takes to cook in the oven.
@@ -41,7 +41,7 @@ export const EXPECTED_MINUTES_IN_OVEN = 40;
 const PREPARATION_MINUTES_PER_LAYER = 2;
 
 /**
- * Determines the number of minutes the lasagna still needs to remain in the
+ * Determines the number of minutes the 02-lasagna still needs to remain in the
  * oven to be properly prepared.
  *
  * @param {number} actualMinutesInOven
@@ -63,7 +63,7 @@ export function preparationTimeInMinutes(numberOfLayers) {
 
 /**
  * Calculates the total working time. That is, the time to prepare all the layers
- * of lasagna, and the time already spent in the oven.
+ * of 02-lasagna, and the time already spent in the oven.
  *
  * @param {number} numberOfLayers
  * @param {number} actualMinutesInOven
