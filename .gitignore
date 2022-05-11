@@ -12,6 +12,9 @@
 /python/Side exercises/Medium/*/.exercism/
 /python/Side exercises/Medium/*/.pytest_cache/
 
-javascript/*/node_modules/
-/javascript/*/package-lock.json
-/javascript/*/.exercism/
+/javascript/Main track/*/node_modules/
+/javascript/Side exercises/*/node_modules/
+/javascript/Main track/*/package-lock.json
+/javascript/Side exercises/*/package-lock.json
+/javascript/Main track/*/.exercism/
+/javascript/Side exercises/*/.exercism/
